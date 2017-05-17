@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background: #204862;
+}
+
+h1{
+    color: #fff;
+    text-align: center;
+    margin-top: 20px
+}
+
+h2{
+    text-align: center;
+}
+
+.form-register{
+
+    width: 98%;
+    padding: 15px;
+    max-width: 700px;
+    margin: auto;
+    background:;
+    border-radius: 7px;
+    border: 5px solid rgba(0,0,0,0.5);
+
+}
+
+.form-titulo{
+    background: deepsky;
+    color: rgba(0,0,0,0.7);
+    padding: px;
+    text-align: center;
+    font-weight: 200;
+    font-size: 40px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border-bottom: 5px solid ;
+}
+
+.contenedor-inputs{
+    padding: 10px 30px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+input{
+    margin-bottom: 15px;
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 3px;
+    border: 5px solid rgba(0,0,0,0.5);
+    background: rgba(0,0,0,0.5);
+    color: aliceblue;
+}
+.input-48{
+    width: 48%;
+}
+
+.input-100{
+    width: 100%;
+}
+
+.btn-enviar{
+    background: rgba(0,0,0,0.6);
+    color: aliceblue;
+    margin: auto;
+    padding: 10px 40px;
+    cursor: pointer;
+
+}
+.btn-enviar: active{
+    transform: scale();
+}
+
+.form__link{
+    width: 100%;
+    margin: 7px;
+    text-align: center;
+    font-size: 18px;
+    color: aliceblue;
+}
+
+/* FOOTER*/
+
+#footer
+{
+    color: #ffffff;
+    position: absolute;
+    overflow: hidden;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    z-index: 100;
+    padding-bottom: 20px;
+
+}
+
+/* Footer gradient */
+.backgroundImage #footer,
+.backgroundSlider #footer,
+.backgroundVideo #footer
+{
+    background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0.65) 65%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.65))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 65%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 65%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 65%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 65%); /* W3C */
+}
+
+#footer p
+{
+    font-size: 15px;
+    margin: 0px;
+    text-decoration: underline
+}
+
+#footer a
+{
+    color: #ffffff;
+    text-decoration:none;
+}
+
+.slide.cycle-slide
+{
+    width: 100%;
+}
+
+/* fondo */
+.backgroundImage body
+{
+    /* Full background image */
+    background: url('../images/pie.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
