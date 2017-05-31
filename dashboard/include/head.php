@@ -1,4 +1,12 @@
-<?php  ?>
+<?php
+session_start();
+
+if(!$_SESSION ){
+  header("location: ../login.php");
+}
+
+
+  ?>
 <!doctype html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
@@ -11,7 +19,6 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <link rel="stylesheet" href="../css/icomoon/style.css">
-
         <link rel="stylesheet" href="../css/bootstrap.min.css">
         <style>
             body {
@@ -101,9 +108,13 @@
               <li>
               <a href="login.php"><label for="">Log in</label></a>
               </li>
-              <li>
-              <a href="signin.php"><label for="">Log out</label></a>
-              </li>
+              <li class="nav-item">
+              <a href="">
+                <form class="form-inline" action="../serv/logout.php" method="post">
+                <input type="submit" name="" class="btn btn-sm " value="log out">
+              </form>
+              </a>
+            </li>
 
             </ul>
 

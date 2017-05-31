@@ -99,8 +99,11 @@
           <div class=" navbar-right" role="search">
 
             <ul class="nav navbar-nav">
-              <li>
-              <a href=""><label for="">Log out</label></a>
+              <li class="nav-item">
+              <form class="form-inline" action="serv/logout.php" method="post">
+                <input type="text" name="" class="hidden" value="">
+                <input type="submit" name="" class="nav-link " value="log out">
+              </form>
             </li>
             </ul>
 

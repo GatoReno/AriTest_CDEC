@@ -3,6 +3,8 @@
 include("include/head.php");
 require ("../serv/conexion.php");
 
+
+
 $sql = "SELECT * FROM users WHERE status = 0";
 
 $resultado=$con->query($sql) or trigger_error($mysqli->error)
