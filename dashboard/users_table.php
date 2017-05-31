@@ -37,7 +37,7 @@ require ("../serv/conexion.php");
             ?>
 
            <tbody>
-          
+
                <tr>
                  <td class="" id="id_<?php echo $i; ?>"><?php echo $row['id']; ?></td>
                  <td id="name_<?php echo $i; ?>"><?php echo $row['name']; ?></td>

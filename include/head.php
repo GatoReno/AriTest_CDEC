@@ -74,6 +74,7 @@
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation" align="center">
       <div class="container">
         <div class="navbar-header" >
+          <a class="navbar-brand" href="#"><?php echo $_SESSION['nombre']; ?></a>
 
           <button type="button"  class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
             <span class="icon-menu" style="color:white"></span>
@@ -91,12 +92,7 @@
               <li>
                   <img src="img/logo.png" height="55" alt="">
                 </li>
-              <li>
 
-              </li>
-              <li>
-              <a href="cita.php"><label class="sync" for="">Hace cita</label></a>
-              </li>
 
             </ul>
 
@@ -105,11 +101,7 @@
             <ul class="nav navbar-nav">
               <li>
               <a href=""><label for="">Log out</label></a>
-              </li>
-              <li>
-              <a ><label for=""><?php echo $_SESSION['nombre']; ?></label></a>
-              </li>
-
+            </li>
             </ul>
 
 

@@ -1,5 +1,6 @@
-<?php include("../include/head.php");
+<?php include("../include/head_unsession.php");
 require ("conexion.php");
+
 ?>
 
 <br><br><br>

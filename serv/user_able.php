@@ -1,5 +1,8 @@
-<?php include("../include/head.php");
+<?php
+session_start();
+
 require ("conexion.php");
+include("../include/head_unsession.php");
 ?>
 
 <br><br><br>

@@ -103,7 +103,7 @@
 
               </li>
               <li>
-                  <a href="login.php"><label for="">Log in</label></a>
+                  <a href=""><label for="">CEDEC</label></a>
               </li>
 
             </ul>
