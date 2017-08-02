@@ -1,5 +1,6 @@
 <?php
 include("include/head.php");
+/*Test Ghoul*/
  ?>
 
  <br>
