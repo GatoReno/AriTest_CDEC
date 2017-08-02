@@ -1,5 +1,7 @@
 <?php
 
 include("Log_principal.php");
-/*test*/
+/*test*
+ok
+/
  ?>
